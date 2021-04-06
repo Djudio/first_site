@@ -48,24 +48,32 @@ ul{
 }
 
 .nav_links li a:hover{
-    color: #008a90;
+    color: rgba(237, 19, 95, 1);
 }
 
 .logo_style:hover{
-    fill: #008a90;
+    fill: rgba(237, 19, 95, 1);
 }
 
 .contact_button button{
     padding: 9px 25px;
-    background: linear-gradient(90deg,#0162c8,#55e7fc);
+    background: linear-gradient(90deg,rgb(117, 74, 96),rgb(225, 24, 95));
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
-.contact_button:hover{
- color: rgba(0, 136, 169, 1);
+.welcome_section{
+    background-image: url(./images/dragon.PNG);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size:contain;
+    padding-top: 380px;
+    padding-bottom: 40px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(30,43,51);
 }
 
 footer{
@@ -85,6 +93,7 @@ footer{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .footer_content p{
@@ -93,22 +102,49 @@ footer{
     font-size: 14px;
 }
 
-.social_style{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0px 30px 0px;
+.social_position{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
 }
 
-.social_style li{
-    margin: 10px;
+.wrapper .social_buttons{
+    display: inline-block;
+    align-items:center;
+    width: 60px;
+    height: 60px;
+    margin: 0px 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    margin-bottom: 10px;
 }
 
-.social_style a{
-    fill: #edf0f1;
-    transition: all 0.3s ease 0s;
+.wrapper .social_buttons:hover{
+    width: 200px;
 }
 
-.social_style a:hover{
-    fill: #008a90
+.wrapper .social_buttons .button{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .social_buttons span{
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 500;
+    color:black
+}
+
+.wrapper .social_buttons span:hover{
+    color: rgba(237, 19, 95, 1);;
 }
