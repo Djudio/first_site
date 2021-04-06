@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.page_width {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252A;
+}
+
+.logo_style{
+    fill: #edf0f1;
+    height: 34px;
+    width: 44px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+li, a, button {
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #008a90;
+}
+
+.logo_style:hover{
+    fill: #008a90;
+}
+
+.contact_button button{
+    padding: 9px 25px;
+    background: linear-gradient(90deg,#0162c8,#55e7fc);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.contact_button:hover{
+ color: rgba(0, 136, 169, 1);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    color: #edf0f1;
+}
+
+.footer_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer_content p{
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 14px;
+}
+
+.social_style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 30px 0px;
+}
+
+.social_style li{
+    margin: 10px;
+}
+
+.social_style a{
+    fill: #edf0f1;
+    transition: all 0.3s ease 0s;
+}
+
+.social_style a:hover{
+    fill: #008a90
+}
